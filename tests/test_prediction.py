@@ -16,6 +16,7 @@ def test_prepare_image_for_model_returns_expected_shape():
     processed = prepare_image_for_model(image)
     assert processed.shape == (224, 224, 3)
     assert processed.dtype == np.float32
+    assert processed.max() == 150
 
 
 def test_prediction_result_structure():

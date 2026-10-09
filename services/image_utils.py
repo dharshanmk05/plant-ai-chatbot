@@ -112,7 +112,7 @@ def prepare_image_for_model(image: Any, target_size: tuple[int, int] = (224, 224
     """Resize and convert an image to a model-ready NumPy array."""
     rgb_image = ensure_rgb(image)
     processed = ImageOps.fit(rgb_image, target_size, method=Image.Resampling.BICUBIC)
-    array = np.asarray(processed, dtype=np.float32) / 255.0
+    array = np.asarray(processed, dtype=np.float32)
     return array
 
 
