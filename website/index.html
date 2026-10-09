@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f34">
+  <title>Plant AI Assistant</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1d2c25;
+      --muted: #5d6b63;
+      --forest: #173f34;
+      --leaf: #537c54;
+      --line: #d8e1da;
+      --paper: #f3f7f3;
+      --white: #fff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      min-height: 88px;
+      padding: 16px clamp(18px, 4vw, 56px);
+      background: var(--forest);
+      color: var(--white);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      min-width: 0;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 42px;
+      height: 42px;
+      flex: 0 0 42px;
+      place-items: center;
+      border: 1px solid #91b59a;
+      color: #c8dfc8;
+      font-family: Georgia, serif;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .brand-name {
+      margin: 0;
+      font-family: Georgia, serif;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1.15;
+    }
+
+    .brand-caption {
+      margin: 4px 0 0;
+      color: #c3d2c8;
+      font-size: 13px;
+    }
+
+    .connection {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #d8e8dc;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .connection::before {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #9bd19a;
+      content: "";
+    }
+
+    main { padding: 22px clamp(12px, 2vw, 28px) 28px; }
+
+    .chat-frame {
+      display: block;
+      width: 100%;
+      height: calc(100dvh - 132px);
+      min-height: 680px;
+      border: 1px solid var(--line);
+      background: var(--white);
+    }
+
+    .fallback {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+    }
+
+    .fallback a { color: var(--leaf); }
+
+    @media (max-width: 600px) {
+      .site-header { min-height: 76px; gap: 12px; padding: 12px 14px; }
+      .brand-mark { width: 36px; height: 36px; flex-basis: 36px; }
+      .brand-name { font-size: 19px; }
+      .brand-caption { font-size: 12px; }
+      .connection { font-size: 0; }
+      .connection::before { width: 9px; height: 9px; }
+      main { padding: 10px 0 0; }
+      .chat-frame { height: calc(100dvh - 86px); min-height: 620px; border-right: 0; border-left: 0; }
+      .fallback { padding: 0 14px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">PA</div>
+      <div>
+        <h1 class="brand-name">Plant AI Assistant</h1>
+        <p class="brand-caption">Leaf analysis and crop-care chat</p>
+      </div>
+    </div>
+    <span class="connection" id="connection-status">Connecting to chatbot</span>
+  </header>
+  <main>
+    <iframe class="chat-frame" id="chatbot" title="Plant AI Assistant chatbot"></iframe>
+    <p class="fallback">Chat not visible? <a id="open-chatbot" target="_blank" rel="noopener">Open the chatbot directly</a></p>
+  </main>
+  <script>
+    const host = window.location.hostname || "localhost";
+    const chatbotUrl = `${window.location.protocol}//${host}:8502`;
+    const chatbot = document.getElementById("chatbot");
+    chatbot.src = chatbotUrl;
+    chatbot.addEventListener("load", () => {
+      document.getElementById("connection-status").textContent = "Chatbot ready";
+    });
+    document.getElementById("open-chatbot").href = chatbotUrl;
+  </script>
+</body>
+</html>

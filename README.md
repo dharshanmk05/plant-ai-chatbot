@@ -28,9 +28,15 @@ A beginner-friendly Streamlit project for plant image analysis and plant-care ch
 
    pip install -r requirements.txt
 
-4. Start the app:
+4. Start the chatbot in the project root:
 
-   streamlit run app.py
+   python -m streamlit run app.py --server.address 0.0.0.0 --server.port 8502
+
+5. In a second terminal, start the HTML website:
+
+   python -m http.server 8503 --bind 0.0.0.0 --directory website
+
+6. Open http://localhost:8503 on the computer. For a phone on the same Wi-Fi, open http://<computer-ip>:8503.
 
 ## Notes
 
