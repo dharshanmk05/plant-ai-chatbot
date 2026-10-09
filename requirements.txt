@@ -1,0 +1,10 @@
+streamlit>=1.36.0
+
+pillow>=10.0.0
+opencv-python-headless>=4.9.0
+numpy>=1.26.0
+pandas>=2.2.0
+torch>=2.2.0
+transformers>=4.41.0
+requests>=2.31.0
+pytest>=8.0.0

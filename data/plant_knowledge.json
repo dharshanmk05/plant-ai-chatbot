@@ -1,0 +1,1885 @@
+{
+  "plants": [
+    {
+      "plant": "Tomato",
+      "description": "Tomato is a common fruit crop that is vulnerable to foliar diseases when humidity, leaf wetness, and poor airflow are high.",
+      "diseases": [
+        {
+          "plant": "Tomato",
+          "disease": "Healthy",
+          "description": "Healthy tomato foliage is usually uniform green and without widespread spotting, lesions, or yellowing.",
+          "symptoms": [
+            "Uniform green leaf color",
+            "No significant lesions or spotting",
+            "Strong, steady leaf growth"
+          ],
+          "common contributing conditions": [
+            "Consistent watering and good ventilation",
+            "Healthy soil and nutrient balance",
+            "Regular monitoring for early stress"
+          ],
+          "prevention": [
+            "Avoid excessive moisture on leaves",
+            "Use mulch and good airflow",
+            "Remove weak or diseased material promptly"
+          ],
+          "plant-care advice": [
+            "Water at the base of the plant when possible",
+            "Provide enough light and avoid overwatering",
+            "Monitor leaves every few days for early changes"
+          ],
+          "treatment guidance": [
+            "No disease treatment is required when the plant is healthy. Continue regular care and monitoring."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy plants should continue to be observed for stress, nutrient issues, or emerging disease."
+          ]
+        },
+        {
+          "plant": "Tomato",
+          "disease": "Early Blight",
+          "description": "Early blight is a common tomato foliar disease caused by fungal organisms that thrive in warm, humid conditions.",
+          "symptoms": [
+            "Brown to dark leaf spots with concentric rings",
+            "Yellowing around lesions",
+            "Lower leaves often affected first"
+          ],
+          "common contributing conditions": [
+            "Warm temperatures with humidity",
+            "Leaf wetness from dew or overhead irrigation",
+            "Crowded plants with poor airflow"
+          ],
+          "prevention": [
+            "Water at soil level instead of on foliage",
+            "Provide spacing and ventilation",
+            "Remove infected lower leaves and debris"
+          ],
+          "plant-care advice": [
+            "Keep the canopy open and avoid repeated wetness on leaves",
+            "Maintain balanced nutrition to support recovery",
+            "Check lower leaves regularly for early lesions"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow regional disease-management recommendations for tomato crops."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Early detection and sanitation can reduce spread.",
+            "If symptoms are severe or spreading quickly, consult a local agricultural advisor."
+          ]
+        },
+        {
+          "plant": "Tomato",
+          "disease": "Late Blight",
+          "description": "Late blight can spread quickly in cool and wet weather, causing rapid foliar damage and plant stress.",
+          "symptoms": [
+            "Dark irregular lesions on leaves",
+            "Water-soaked appearance in early stages",
+            "Rapid spread under cool, wet conditions"
+          ],
+          "common contributing conditions": [
+            "Cool, moist weather",
+            "High humidity and persistent leaf wetness",
+            "Nearby infected plants or volunteer hosts"
+          ],
+          "prevention": [
+            "Avoid excess moisture on leaves",
+            "Choose resistant varieties when practical",
+            "Sanitize tools and remove infected tissue"
+          ],
+          "plant-care advice": [
+            "Monitor the crop closely after rainy periods",
+            "Keep foliage dry when possible",
+            "Inspect stems and leaves for new lesions"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow a local integrated disease-management plan for late blight."
+          ],
+          "severity": "High",
+          "notes": [
+            "Late blight can become severe quickly under damp conditions."
+          ]
+        },
+        {
+          "plant": "Tomato",
+          "disease": "Bacterial Spot",
+          "description": "Bacterial spot can cause water-soaked lesions and is often linked to splashing water and warm, wet conditions.",
+          "symptoms": [
+            "Small dark lesions with yellow halos",
+            "Leaf spotting and distortion",
+            "Possible fruit lesions in severe cases"
+          ],
+          "common contributing conditions": [
+            "Frequent leaf wetness",
+            "Rain splash and splashing irrigation",
+            "Crowded foliage and poor airflow"
+          ],
+          "prevention": [
+            "Avoid overhead watering",
+            "Reduce leaf wetness and improve airflow",
+            "Remove heavily infected leaves carefully"
+          ],
+          "plant-care advice": [
+            "Keep equipment clean and sanitized",
+            "Maintain proper spacing and avoid stress",
+            "Scout often after periods of rain"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Apply a disease-management plan suited to local tomato production conditions."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Bacterial diseases often require sanitation and the reduction of leaf wetness."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Potato",
+      "description": "Potato leaves can show disease patterns that often intensify under cool, wet, or crowded plant conditions.",
+      "diseases": [
+        {
+          "plant": "Potato",
+          "disease": "Healthy",
+          "description": "Healthy potato foliage is typically green and evenly balanced without major spots or wilting.",
+          "symptoms": [
+            "Uniform green canopy",
+            "No visible lesion spread",
+            "Normal growth and firmness"
+          ],
+          "common contributing conditions": [
+            "Stable moisture and soil health",
+            "Good airflow and sunlight",
+            "Healthy crop management"
+          ],
+          "prevention": [
+            "Keep soil moisture consistent",
+            "Avoid overcrowding",
+            "Scout useful areas before symptoms spread"
+          ],
+          "plant-care advice": [
+            "Maintain even watering and crop nutrition",
+            "Remove weeds and monitor for stress",
+            "Keep the canopy open to reduce humidity"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop appears healthy. Continue standard agricultural care."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy crops should still be checked periodically for early disease outbreaks."
+          ]
+        },
+        {
+          "plant": "Potato",
+          "disease": "Early Blight",
+          "description": "Early blight often appears as dark spots with concentric patterning on older potato leaves.",
+          "symptoms": [
+            "Dark lesions with concentric rings",
+            "Yellowing around affected tissue",
+            "Higher disease pressure on older leaves"
+          ],
+          "common contributing conditions": [
+            "Warm nights and humidity",
+            "Leaf wetness",
+            "Stress from nutrient imbalance or poor air movement"
+          ],
+          "prevention": [
+            "Avoid frequent wet foliage",
+            "Improve canopy airflow",
+            "Remove infected material from the field"
+          ],
+          "plant-care advice": [
+            "Inspect lower leaves regularly",
+            "Support plant vigor with balanced nutrition",
+            "Keep records of weather and symptom progression"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Base management decisions on local potato disease recommendations."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "The disease may progress steadily if left unchecked in warm wet weather."
+          ]
+        },
+        {
+          "plant": "Potato",
+          "disease": "Late Blight",
+          "description": "Late blight is a serious potato disease that spreads rapidly under cool and wet conditions.",
+          "symptoms": [
+            "Irregular dark lesions on leaves",
+            "Water-soaked leaf tissue",
+            "Rapid crop decline under moist weather"
+          ],
+          "common contributing conditions": [
+            "Cool and wet weather",
+            "High humidity",
+            "Contaminated crop residue or nearby infected plants"
+          ],
+          "prevention": [
+            "Keep foliage dry when feasible",
+            "Scout regularly after rain",
+            "Use rotation and sanitation where practical"
+          ],
+          "plant-care advice": [
+            "Act quickly when symptoms appear",
+            "Inspect the upper and lower canopy",
+            "Document disease spread over time"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow a local emergency disease-management program when conditions are favorable for spread."
+          ],
+          "severity": "High",
+          "notes": [
+            "Rapid intervention is often needed in severe disease pressure."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Pepper",
+      "description": "Pepper plants can suffer foliar disease when warmth, humidity, and poor airflow combine in the crop canopy.",
+      "diseases": [
+        {
+          "plant": "Pepper",
+          "disease": "Healthy",
+          "description": "Healthy pepper leaves are usually green and firm without widespread spots or wilting.",
+          "symptoms": [
+            "Smooth, even green leaves",
+            "No major spotting or lesions",
+            "Strong vegetative growth"
+          ],
+          "common contributing conditions": [
+            "Good light and air movement",
+            "Balanced watering and nutrients",
+            "Routine crop checks"
+          ],
+          "prevention": [
+            "Keep leaves dry whenever possible",
+            "Use spacing to increase airflow",
+            "Avoid nutrient stress"
+          ],
+          "plant-care advice": [
+            "Use consistent watering and avoid overfeeding",
+            "Look for early symptoms after high humidity",
+            "Keep the plant canopy open"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the plant appears healthy. Continue standard care and monitoring."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy pepper plants benefit from regular observation and good airflow."
+          ]
+        },
+        {
+          "plant": "Pepper",
+          "disease": "Bacterial Spot",
+          "description": "Bacterial spot in peppers often appears as small dark lesions with yellow margins and can spread with splashing water.",
+          "symptoms": [
+            "Dark spots with yellow halos",
+            "Leaf chlorosis and tissue collapse",
+            "Possible fruit spots in severe cases"
+          ],
+          "common contributing conditions": [
+            "Frequent rain and high humidity",
+            "Leaf wetness from overhead irrigation",
+            "Crowded plants"
+          ],
+          "prevention": [
+            "Reduce leaf wetness",
+            "Improve air movement and spacing",
+            "Sanitize tools and handling areas"
+          ],
+          "plant-care advice": [
+            "Inspect crop after rain events",
+            "Remove highly infected leaves carefully",
+            "Avoid practices that splash water from leaf to leaf"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow local pepper disease management advice for the region."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Managing humidity and leaf wetness is important for limiting spread."
+          ]
+        },
+        {
+          "plant": "Pepper",
+          "disease": "Leaf Mold",
+          "description": "Leaf mold is a foliar disease often associated with warm, humid greenhouse or protected cropping environments.",
+          "symptoms": [
+            "Gray to olive leaf patches",
+            "Mold growth on the undersides of leaves",
+            "Yellowing and leaf collapse in severe cases"
+          ],
+          "common contributing conditions": [
+            "Warm temperatures with high humidity",
+            "Poor ventilation",
+            "Dense leafy growth"
+          ],
+          "prevention": [
+            "Increase airflow and reduce humidity",
+            "Water at the base and avoid wet foliage",
+            "Thin dense growth where necessary"
+          ],
+          "plant-care advice": [
+            "Check undersides of leaves regularly",
+            "Avoid letting the canopy stay wet overnight",
+            "Use routine sanitation in protected cropping spaces"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow local protected-crop recommendations for fungal control and ventilation."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Leaf mold is often linked to poor ventilation and persistently humid conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Chilli",
+      "description": "Chilli plants are often affected by foliar disease when humidity and wet leaves persist over time.",
+      "diseases": [
+        {
+          "plant": "Chilli",
+          "disease": "Healthy",
+          "description": "Healthy chilli plants usually have firm, uniformly green leaves and steady growth without lesions.",
+          "symptoms": [
+            "Uniform green leaves",
+            "Strong upright growth",
+            "No significant spots or yellowing"
+          ],
+          "common contributing conditions": [
+            "Stable moisture and nutrition",
+            "Good light and airflow",
+            "Regular plant checks"
+          ],
+          "prevention": [
+            "Keep leaf surfaces dry when practical",
+            "Avoid overcrowding",
+            "Practice routine crop inspection"
+          ],
+          "plant-care advice": [
+            "Provide steady light and water",
+            "Maintain balanced nutrition",
+            "Monitor for stress and early disease symptoms"
+          ],
+          "treatment guidance": [
+            "No disease treatment is required when the plant is healthy. Continue routine care and monitoring."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Routine monitoring is useful for identifying emerging disease before it spreads."
+          ]
+        },
+        {
+          "plant": "Chilli",
+          "disease": "Leaf Mold",
+          "description": "Leaf mold in chilli plants often develops when the canopy stays humid for long periods and airflow is limited.",
+          "symptoms": [
+            "Gray or olive mold-like patches",
+            "Yellowing around patches",
+            "Rapid spread under humid conditions"
+          ],
+          "common contributing conditions": [
+            "High humidity",
+            "Poor ventilation",
+            "Repeated wet foliage overnight"
+          ],
+          "prevention": [
+            "Improve airflow around the canopy",
+            "Reduce nighttime leaf wetness",
+            "Avoid crowding and dense growth"
+          ],
+          "plant-care advice": [
+            "Inspect undersides of leaves for symptoms",
+            "Use a watering strategy that keeps foliage dry",
+            "Remove severely affected leaves if needed"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow local crop-protection recommendations for chilli production."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Managing humidity is critical in preventing mold spread in chilli plants."
+          ]
+        },
+        {
+          "plant": "Chilli",
+          "disease": "Septoria Leaf Spot",
+          "description": "Septoria leaf spot is a foliar problem that often begins as small circular lesions and spreads under moist conditions.",
+          "symptoms": [
+            "Small circular spots with darker centers",
+            "Yellowing and leaf drop in severe cases",
+            "Progressive symptom spread on older foliage"
+          ],
+          "common contributing conditions": [
+            "High humidity and leaf wetness",
+            "Dense canopy",
+            "Repetitive wet weather"
+          ],
+          "prevention": [
+            "Improve airflow and reduce overhead irrigation",
+            "Sanitize and remove heavily affected leaves",
+            "Monitor after rainfall or dew periods"
+          ],
+          "plant-care advice": [
+            "Check lower leaves early and often",
+            "Keep the crop healthy to reduce stress",
+            "Document symptom progression with photos"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow local disease-control recommendations suited to chilli production."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Regular scouting reduces the chance that leaf spot spreads unnoticed."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Paddy",
+      "description": "Paddy is a major cereal crop grown in wet or flooded conditions, and it is highly sensitive to water stress, nutrient imbalance, and foliar disease outbreaks.",
+      "diseases": [
+        {
+          "plant": "Paddy",
+          "disease": "Healthy",
+          "description": "Healthy paddy plants have uniform green leaves and steady tillering with no significant lesion spread.",
+          "symptoms": [
+            "Uniform green foliage",
+            "Healthy tillers and strong growth",
+            "No major leaf spotting or wilting"
+          ],
+          "common contributing conditions": [
+            "Balanced water management",
+            "Proper nutrient supply",
+            "Good field sanitation and drainage"
+          ],
+          "prevention": [
+            "Maintain proper water levels",
+            "Avoid overuse of nitrogen",
+            "Practice field hygiene and crop rotation"
+          ],
+          "plant-care advice": [
+            "Monitor field moisture and drainage",
+            "Check for nutrient imbalance early",
+            "Inspect leaves regularly for stress or disease"
+          ],
+          "treatment guidance": [
+            "No disease treatment is required when the crop is healthy. Continue standard crop management and monitoring."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy paddy fields benefit from stable water management and regular inspection."
+          ]
+        },
+        {
+          "plant": "Paddy",
+          "disease": "Blast",
+          "description": "Rice blast is a serious fungal disease that damages leaves and panicles especially in humid conditions with uneven moisture.",
+          "symptoms": [
+            "Diamond-shaped lesions on leaves",
+            "Leaf drying and tip burn in severe cases",
+            "Possible panicle infection during heading"
+          ],
+          "common contributing conditions": [
+            "High humidity and temperature fluctuation",
+            "Water stress and nutrient imbalance",
+            "Planting susceptible varieties"
+          ],
+          "prevention": [
+            "Use resistant varieties where possible",
+            "Avoid excessive nitrogen application",
+            "Keep field conditions balanced and well managed"
+          ],
+          "plant-care advice": [
+            "Scout early and often during humid periods",
+            "Keep the field well drained and healthy",
+            "Remove infected residues from the field when possible"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow local rice disease management recommendations."
+          ],
+          "severity": "High",
+          "notes": [
+            "Blast can spread rapidly under favorable humidity and poor crop management."
+          ]
+        },
+        {
+          "plant": "Paddy",
+          "disease": "Brown Spot",
+          "description": "Brown spot causes dark circular lesions on leaves and often becomes severe when the crop is under nutrient stress.",
+          "symptoms": [
+            "Brown circular leaf spots with yellow halos",
+            "Leaf yellowing and reduced vigor",
+            "Poor grain fill when severe"
+          ],
+          "common contributing conditions": [
+            "Low soil fertility",
+            "Moist field conditions",
+            "Stress from uneven management"
+          ],
+          "prevention": [
+            "Maintain balanced nutrition",
+            "Improve field health and moisture control",
+            "Use resistant or adapted varieties"
+          ],
+          "plant-care advice": [
+            "Check the field after periods of stress",
+            "Apply nutrients according to soil recommendations",
+            "Monitor leaf symptoms by field section"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow the recommended agronomic practices for field rice production."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Strong crop nutrition and field management can reduce disease severity."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Brinjal",
+      "description": "Brinjal is a warm-season vegetable crop whose leaves and fruits can be impacted by foliar disease and wilt under humid or stressed conditions.",
+      "diseases": [
+        {
+          "plant": "Brinjal",
+          "disease": "Healthy",
+          "description": "Healthy brinjal plants have strong leaves, balanced growth, and no major spots or wilting symptoms.",
+          "symptoms": [
+            "Dark green and firm leaves",
+            "Healthy branching and steady growth",
+            "No major lesion spread"
+          ],
+          "common contributing conditions": [
+            "Consistent watering",
+            "Good soil drainage",
+            "Routine scouting and healthy nutrition"
+          ],
+          "prevention": [
+            "Avoid waterlogging",
+            "Monitor for early stress",
+            "Maintain balanced nutrition"
+          ],
+          "plant-care advice": [
+            "Check leaves often for early symptoms",
+            "Use proper spacing and drainage",
+            "Keep the crop free from stress and debris"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop appears healthy. Continue regular care and monitoring."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Well-managed brinjal plants remain vigorous and productive when monitored consistently."
+          ]
+        },
+        {
+          "plant": "Brinjal",
+          "disease": "Wilt",
+          "description": "Brinjal wilt often causes drooping, yellowing, and sudden decline in affected plants, especially under stress or soil-borne pressure.",
+          "symptoms": [
+            "Wilting and leaf drooping",
+            "Yellowing of foliage",
+            "General decline in plant vigor"
+          ],
+          "common contributing conditions": [
+            "Water stress",
+            "Poor drainage and compacted soil",
+            "Soil-borne infection pressure"
+          ],
+          "prevention": [
+            "Maintain good drainage",
+            "Avoid prolonged water stress",
+            "Use clean seedling material and sanitation"
+          ],
+          "plant-care advice": [
+            "Inspect roots and stems when wilting appears",
+            "Keep soil moisture stable",
+            "Remove affected plants to reduce spread"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow local brinjal crop protection recommendations."
+          ],
+          "severity": "High",
+          "notes": [
+            "Wilt can rapidly reduce plant productivity if the soil and irrigation conditions are poor."
+          ]
+        },
+        {
+          "plant": "Brinjal",
+          "disease": "Fruit Rot",
+          "description": "Fruit rot in brinjal is often linked to wet fruit surfaces, high humidity, and poor canopy ventilation.",
+          "symptoms": [
+            "Soft decaying fruit lesions",
+            "Water-soaked areas on fruit",
+            "Off-color or collapsing fruit tissue"
+          ],
+          "common contributing conditions": [
+            "Warm wet weather",
+            "Dense foliage and poor airflow",
+            "Fruit contact with wet soil or leaves"
+          ],
+          "prevention": [
+            "Improve airflow and spacing",
+            "Avoid wetting fruit surfaces",
+            "Keep fruit from contacting soil"
+          ],
+          "plant-care advice": [
+            "Monitor fruit during humid periods",
+            "Mulch carefully and keep the soil clean",
+            "Remove rotting fruit promptly"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow local fruit-protection recommendations for brinjal."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Harvesting and sanitation reduce the spread of fruit rot in brinjal."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Coriander",
+      "description": "Coriander is a leafy herb crop that is sensitive to moisture, humidity, and nutrient imbalance, especially in warm growing seasons.",
+      "diseases": [
+        {
+          "plant": "Coriander",
+          "disease": "Healthy",
+          "description": "Healthy coriander plants have fresh green leaves with steady, vigorous growth and no visible disease lesions.",
+          "symptoms": [
+            "Bright green and healthy foliage",
+            "Steady leaf production",
+            "No major spotting or wilting"
+          ],
+          "common contributing conditions": [
+            "Regular moisture and good drainage",
+            "Balanced nutrition",
+            "Good airflow and crop hygiene"
+          ],
+          "prevention": [
+            "Avoid leaf wetness for long periods",
+            "Keep the crop well spaced",
+            "Monitor regularly for early stress"
+          ],
+          "plant-care advice": [
+            "Maintain regular watering without saturation",
+            "Check leaves for symptoms after cool wet periods",
+            "Use steady, moderate nutrition"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue regular crop management."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy coriander grows best with consistent moisture and careful field inspection."
+          ]
+        },
+        {
+          "plant": "Coriander",
+          "disease": "Leaf Spot",
+          "description": "Leaf spot in coriander often appears as brown circular lesions and spreads more rapidly under warm, wet conditions.",
+          "symptoms": [
+            "Brown to dark spots on leaves",
+            "Yellowing around lesions",
+            "Leaf collapse in severe cases"
+          ],
+          "common contributing conditions": [
+            "High humidity",
+            "Frequent wet leaves",
+            "Poor spacing and dense crop canopy"
+          ],
+          "prevention": [
+            "Reduce leaf wetness and improve airflow",
+            "Remove infected leaves promptly",
+            "Use clean cultural practices"
+          ],
+          "plant-care advice": [
+            "Scout often in humid weather",
+            "Avoid overhead irrigation if possible",
+            "Keep the crop canopy open and healthy"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Coriander leaf spot is more manageable when moisture and canopy density are controlled."
+          ]
+        },
+        {
+          "plant": "Coriander",
+          "disease": "Powdery Mildew",
+          "description": "Powdery mildew in coriander develops on leaf surfaces under dry but humid conditions and can reduce plant vigor.",
+          "symptoms": [
+            "White powdery patches on leaves",
+            "Leaf curling or reduced vigor",
+            "Progressive stress during warm periods"
+          ],
+          "common contributing conditions": [
+            "Warm days with persistent humidity",
+            "Dense foliage",
+            "Slow airflow around the crop"
+          ],
+          "prevention": [
+            "Improve ventilation around the canopy",
+            "Reduce dense leaf overlap",
+            "Monitor after warm humid weather"
+          ],
+          "plant-care advice": [
+            "Inspect upper leaf surfaces regularly",
+            "Keep the crop healthy and unstressed",
+            "Remove heavily affected foliage when needed"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Powdery mildew is often easier to manage when the canopy is kept open and airy."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Onion",
+      "description": "Onion is a high-value vegetable crop that can develop foliar disease when humidity, leaf wetness, and poor airflow remain high.",
+      "diseases": [
+        {
+          "plant": "Onion",
+          "disease": "Healthy",
+          "description": "Healthy onion plants have strong green leaves and a steady canopy without large lesions or yellowing.",
+          "symptoms": [
+            "Strong green leaves",
+            "Normal upright growth",
+            "No obvious spotting or wilting"
+          ],
+          "common contributing conditions": [
+            "Careful irrigation management",
+            "Balanced nutrition",
+            "Good crop hygiene"
+          ],
+          "prevention": [
+            "Avoid excessive leaf wetness",
+            "Keep the crop weed-free and well spaced",
+            "Use regular crop inspection"
+          ],
+          "plant-care advice": [
+            "Monitor leaves for stress and response to irrigation",
+            "Maintain steady field health",
+            "Check for disease after long wet periods"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue standard agronomic care."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy onion fields benefit from consistent water and field inspection."
+          ]
+        },
+        {
+          "plant": "Onion",
+          "disease": "Purple Blotch",
+          "description": "Purple blotch is a common onion foliar disease that spreads rapidly under warm and humid weather conditions.",
+          "symptoms": [
+            "Purple lesions with yellow margins",
+            "Leaf dieback in severe cases",
+            "Reduced photosynthesis and plant vigor"
+          ],
+          "common contributing conditions": [
+            "Warm humid weather",
+            "Leaf wetness and poor wind movement",
+            "Dense onion canopy"
+          ],
+          "prevention": [
+            "Improve spacing and airflow",
+            "Avoid overhead watering",
+            "Remove diseased plant material when practical"
+          ],
+          "plant-care advice": [
+            "Scout the crop during high humidity periods",
+            "Keep irrigation directed at the soil rather than leaves",
+            "Monitor rapidly for new lesions"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Purple blotch becomes more serious when foliage remains wet for long periods."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Okra",
+      "description": "Okra is a warm-season vegetable crop that responds strongly to heat, moisture, and disease pressure in the canopy.",
+      "diseases": [
+        {
+          "plant": "Okra",
+          "disease": "Healthy",
+          "description": "Healthy okra plants have firm green leaves and steady fruit development without widespread lesions.",
+          "symptoms": [
+            "Green healthy foliage",
+            "Strong vegetative growth",
+            "Normal fruit set and development"
+          ],
+          "common contributing conditions": [
+            "Good irrigation and nutrient management",
+            "Stable warm conditions",
+            "Crop hygiene and regular checks"
+          ],
+          "prevention": [
+            "Maintain even moisture",
+            "Avoid crowding in the canopy",
+            "Use regular scouting"
+          ],
+          "plant-care advice": [
+            "Keep weeds and debris down",
+            "Maintain nutrient levels ",
+            "Monitor for leaf stress during hot periods"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue routine care and monitoring."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy okra crops are easier to manage when stress factors are kept low."
+          ]
+        },
+        {
+          "plant": "Okra",
+          "disease": "Yellow Vein Mosaic",
+          "description": "Yellow vein mosaic is a viral disease that can reduce growth and distort leaves, especially where the vector population is high.",
+          "symptoms": [
+            "Yellowing along leaf veins",
+            "Leaf distortion and reduced size",
+            "Stunted growth in severe cases"
+          ],
+          "common contributing conditions": [
+            "Insect vector activity",
+            "Warm growing conditions",
+            "Presence of infected plants nearby"
+          ],
+          "prevention": [
+            "Use resistant varieties when possible",
+            "Manage vector pressure",
+            "Remove infected plants promptly"
+          ],
+          "plant-care advice": [
+            "Inspect leaves for mosaic symptoms often",
+            "Monitor vector activity in the field",
+            "Keep a clean crop environment"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance.",
+            "Follow local recommendations for vector control and field hygiene."
+          ],
+          "severity": "High",
+          "notes": [
+            "The disease is often spread by sucking insects, so vector management is important."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Wheat",
+      "description": "Wheat is a cereal crop that is highly sensitive to nutrient imbalance, water stress, and foliar disease during key growth stages.",
+      "diseases": [
+        {
+          "plant": "Wheat",
+          "disease": "Healthy",
+          "description": "Healthy wheat has deep green leaves, strong tillering, and good grain filling without widespread lesion spread.",
+          "symptoms": [
+            "Deep green leaves",
+            "Strong tillering and upright growth",
+            "No major yellowing or leaf lesions"
+          ],
+          "common contributing conditions": [
+            "Balanced nitrogen management",
+            "Good soil moisture",
+            "Strong field hygiene and rotation"
+          ],
+          "prevention": [
+            "Use proper nutrient planning",
+            "Avoid water stress",
+            "Monitor crop regularly"
+          ],
+          "plant-care advice": [
+            "Check crop vigor early in the season",
+            "Track moisture and nutrient status",
+            "Scout for stress after weather swings"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue standard agronomic care."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy wheat depends on balanced nutrition and regular field scouting."
+          ]
+        },
+        {
+          "plant": "Wheat",
+          "disease": "Leaf Rust",
+          "description": "Leaf rust is a common wheat disease that reduces photosynthesis and grain quality under favorable humid conditions.",
+          "symptoms": [
+            "Orange or rust-colored pustules on leaves",
+            "Leaf yellowing and drying",
+            "Reduced grain filling in severe cases"
+          ],
+          "common contributing conditions": [
+            "Cool humid weather",
+            "Dense crop canopy",
+            "Susceptible wheat varieties"
+          ],
+          "prevention": [
+            "Use resistant varieties where possible",
+            "Maintain field balance and monitoring",
+            "Avoid dense canopy stress"
+          ],
+          "plant-care advice": [
+            "Scout fields frequently during humid periods",
+            "Maintain good crop health and nutrient balance",
+            "Watch for early rust pustules"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Rust severity often increases quickly when weather stays humid and the crop is stressed."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Maize",
+      "description": "Maize is a major cereal crop whose health depends on balanced nutrition, root vigor, and disease monitoring during the growing season.",
+      "diseases": [
+        {
+          "plant": "Maize",
+          "disease": "Healthy",
+          "description": "Healthy maize plants have vigorous green leaves and strong upright growth with no widespread lesion development.",
+          "symptoms": [
+            "Uniform green foliage",
+            "Strong plant stature",
+            "No major yellowing or lesion spread"
+          ],
+          "common contributing conditions": [
+            "Balanced fertilizer use",
+            "Steady soil moisture",
+            "Regular field monitoring"
+          ],
+          "prevention": [
+            "Avoid nutrient imbalance",
+            "Use proper agronomic management",
+            "Inspect for early stress"
+          ],
+          "plant-care advice": [
+            "Watch the crop after rainfall and heat stress",
+            "Support root health with proper nutrition",
+            "Keep the field clean and well managed"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue standard field management."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Maize remains productive when nutrient and moisture management are consistent."
+          ]
+        },
+        {
+          "plant": "Maize",
+          "disease": "Leaf Blight",
+          "description": "Leaf blight in maize can reduce photosynthesis and plant vigor when conditions stay humid and the canopy remains dense.",
+          "symptoms": [
+            "Large brown leaf lesions",
+            "Progressive leaf drying",
+            "Reduced stand vigor"
+          ],
+          "common contributing conditions": [
+            "High humidity",
+            "Dense crop canopy",
+            "Poor disease management"
+          ],
+          "prevention": [
+            "Improve field airflow and spacing",
+            "Monitor early symptoms",
+            "Use good sanitation and resistant varieties"
+          ],
+          "plant-care advice": [
+            "Scout the field frequently during humid weather",
+            "Keep nutrient levels balanced",
+            "Remove heavy disease pressure where feasible"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Disease pressure often increases when the field remains humid and canopy density is high."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Banana",
+      "description": "Banana is a high-yield fruit crop where moisture balance, nutrient availability, and leaf health are critical to productivity.",
+      "diseases": [
+        {
+          "plant": "Banana",
+          "disease": "Healthy",
+          "description": "Healthy banana plants have green broad leaves and vigorous growth without extensive spotting or collapse.",
+          "symptoms": [
+            "Large green leaves",
+            "Strong upright growth",
+            "No widespread lesions"
+          ],
+          "common contributing conditions": [
+            "Balanced irrigation",
+            "Good nutrient supply",
+            "Healthy field sanitation"
+          ],
+          "prevention": [
+            "Avoid waterlogging",
+            "Maintain nutrient balance",
+            "Inspect leaves often"
+          ],
+          "plant-care advice": [
+            "Monitor leaves for stress and wilting",
+            "Protect root health and moisture balance",
+            "Keep the plantation clean and stable"
+          ],
+          "treatment guidance": [
+            "No disease treatment is required when the crop is healthy. Continue regular management."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy banana fields require regular maintenance and monitoring for early stress."
+          ]
+        },
+        {
+          "plant": "Banana",
+          "disease": "Sigatoka",
+          "description": "Sigatoka is a leaf spot disease that affects banana foliage and can reduce photosynthesis and yield if not managed.",
+          "symptoms": [
+            "Light streaks or spots on leaves",
+            "Leaf necrosis and drying",
+            "Reduced vigor in severe cases"
+          ],
+          "common contributing conditions": [
+            "Warm humid conditions",
+            "Dense banana rows",
+            "Poor sanitation in plantations"
+          ],
+          "prevention": [
+            "Remove diseased leaves",
+            "Improve plantation sanitation",
+            "Monitor field conditions closely"
+          ],
+          "plant-care advice": [
+            "Scout the plantation frequently",
+            "Remove affected leaves early",
+            "Keep rows balanced and healthy"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Early sanitation and field monitoring can reduce the spread of Sigatoka."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Groundnut",
+      "description": "Groundnut is a legume crop whose pod and leaf health depend strongly on soil condition, moisture balance, and disease avoidance.",
+      "diseases": [
+        {
+          "plant": "Groundnut",
+          "disease": "Healthy",
+          "description": "Healthy groundnut plants have strong green leaves and balanced growth without major lesion spread.",
+          "symptoms": [
+            "Healthy green foliage",
+            "Steady growth and flowering",
+            "No major leaf spotting"
+          ],
+          "common contributing conditions": [
+            "Good soil structure",
+            "Balanced moisture",
+            "Regular field checks"
+          ],
+          "prevention": [
+            "Maintain good drainage",
+            "Use balanced nutrition",
+            "Monitor crop stress early"
+          ],
+          "plant-care advice": [
+            "Check field regularly after rainfall",
+            "Maintain soil health and root development",
+            "Scout for stress in leaves and pods"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue regular agronomic care."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy groundnut can produce well when soil and moisture conditions are stable."
+          ]
+        },
+        {
+          "plant": "Groundnut",
+          "disease": "Leaf Spot",
+          "description": "Groundnut leaf spot is often associated with wet periods and poor canopy conditions that favor foliar disease spread.",
+          "symptoms": [
+            "Brown leaf lesions",
+            "Yellowing around spots",
+            "Reduced leaf vigor"
+          ],
+          "common contributing conditions": [
+            "Humid weather",
+            "High leaf wetness",
+            "Dense crop canopy"
+          ],
+          "prevention": [
+            "Improve spacing and crop aeration",
+            "Reduce prolonged leaf wetness",
+            "Monitor after rainy periods"
+          ],
+          "plant-care advice": [
+            "Scouting and sanitation help reduce spread",
+            "Keep the field well managed during rainy weather",
+            "Remove severely infected foliage when practical"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Groundnut diseases are often easier to manage when the canopy stays healthy and dry."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Sugarcane",
+      "description": "Sugarcane is a tall field crop grown for sucrose production and is sensitive to moisture stress, nutrient imbalance, and foliar disease.",
+      "diseases": [
+        {
+          "plant": "Sugarcane",
+          "disease": "Healthy",
+          "description": "Healthy sugarcane has vigorous green stalks and strong leaf growth with no widespread lesions.",
+          "symptoms": [
+            "Green vigorous stalks",
+            "Uniform leaf growth",
+            "No major spotting or wilting"
+          ],
+          "common contributing conditions": [
+            "Balanced irrigation",
+            "Good field nutrition",
+            "Proper crop management"
+          ],
+          "prevention": [
+            "Avoid water stress",
+            "Use balanced fertilization",
+            "Keep the field healthy and clean"
+          ],
+          "plant-care advice": [
+            "Check stalk vigor regularly",
+            "Monitor crop moisture",
+            "Inspect leaves for stress"
+          ],
+          "treatment guidance": [
+            "No disease treatment is required when the crop is healthy. Continue regular agronomic care."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy sugarcane is best maintained with regular field checks."
+          ]
+        },
+        {
+          "plant": "Sugarcane",
+          "disease": "Red Rot",
+          "description": "Red rot is a destructive sugarcane disease that reduces cane quality and can lead to severe yield loss.",
+          "symptoms": [
+            "Red internal tissue discoloration",
+            "Leaf drying and poor vigor",
+            "Stunted or weak stalks"
+          ],
+          "common contributing conditions": [
+            "Warm wet conditions",
+            "Poor sanitation",
+            "Stress from crop imbalance"
+          ],
+          "prevention": [
+            "Use healthy seed cane",
+            "Improve field hygiene",
+            "Avoid infected residues"
+          ],
+          "plant-care advice": [
+            "Inspect stalks frequently",
+            "Remove badly affected plants",
+            "Maintain crop health"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "High",
+          "notes": [
+            "Red rot can seriously reduce cane quality and field productivity."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Cotton",
+      "description": "Cotton is a major fiber crop where leaf health, moisture balance, and pest pressure strongly influence field performance.",
+      "diseases": [
+        {
+          "plant": "Cotton",
+          "disease": "Healthy",
+          "description": "Healthy cotton plants show strong leaf growth, steady plant structure, and normal fruiting.",
+          "symptoms": [
+            "Healthy green leaves",
+            "Strong plant structure",
+            "Normal boll development"
+          ],
+          "common contributing conditions": [
+            "Balanced irrigation",
+            "Good nutrient supply",
+            "Consistent field monitoring"
+          ],
+          "prevention": [
+            "Avoid stress and excess moisture",
+            "Support healthy root vigor",
+            "Monitor growth stages"
+          ],
+          "plant-care advice": [
+            "Inspect the crop regularly",
+            "Keep irrigation balanced",
+            "Support healthy plant growth"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue regular field management."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy cotton fields benefit from balanced crop monitoring."
+          ]
+        },
+        {
+          "plant": "Cotton",
+          "disease": "Leaf Curl",
+          "description": "Leaf curl in cotton usually reduces vigor and can cause malformed leaves and lower productivity.",
+          "symptoms": [
+            "Leaf curling and distortion",
+            "Yellowing or reduced leaf size",
+            "Reduced growth in severe cases"
+          ],
+          "common contributing conditions": [
+            "Vector activity",
+            "Stress conditions",
+            "Presence of infected plants"
+          ],
+          "prevention": [
+            "Use resistant varieties",
+            "Manage vectors",
+            "Remove infected plants"
+          ],
+          "plant-care advice": [
+            "Scout early and often",
+            "Use field sanitation",
+            "Monitor for vectors"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Vector management and field hygiene are important in reducing spread."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Cucumber",
+      "description": "Cucumber is a fast-growing vegetable crop that is highly sensitive to foliar disease and wet canopy conditions.",
+      "diseases": [
+        {
+          "plant": "Cucumber",
+          "disease": "Healthy",
+          "description": "Healthy cucumber plants have bright green leaves and steady vine development without widespread lesions.",
+          "symptoms": [
+            "Bright green leaves",
+            "Strong vine growth",
+            "No major spotting"
+          ],
+          "common contributing conditions": [
+            "Balanced moisture",
+            "Good airflow",
+            "Healthy nutrient status"
+          ],
+          "prevention": [
+            "Avoid leaf wetness",
+            "Improve air movement",
+            "Use regular scouting"
+          ],
+          "plant-care advice": [
+            "Monitor the vine canopy often",
+            "Keep irrigation controlled",
+            "Support healthy growth"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue regular care."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy cucumbers benefit from moderate, consistent crop care."
+          ]
+        },
+        {
+          "plant": "Cucumber",
+          "disease": "Powdery Mildew",
+          "description": "Powdery mildew is a common cucumber disease that can reduce vigor and fruit quality under warm humid conditions.",
+          "symptoms": [
+            "White powdery patches on leaves",
+            "Leaf yellowing",
+            "Reduced vigor"
+          ],
+          "common contributing conditions": [
+            "Warm humid weather",
+            "Dense canopy",
+            "Poor air movement"
+          ],
+          "prevention": [
+            "Improve ventilation",
+            "Reduce dense foliage",
+            "Monitor carefully"
+          ],
+          "plant-care advice": [
+            "Inspect leaves regularly",
+            "Keep the canopy open",
+            "Remove severely affected leaves"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Good ventilation is important in preventing mildew spread."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Cabbage",
+      "description": "Cabbage is a leafy vegetable crop where disease risk often rises with dense foliage, poor airflow, and prolonged leaf wetness.",
+      "diseases": [
+        {
+          "plant": "Cabbage",
+          "disease": "Healthy",
+          "description": "Healthy cabbage leaves are firm, dense, and uniformly green with no major lesion development.",
+          "symptoms": [
+            "Firm green leaves",
+            "Strong head formation",
+            "No major spotting"
+          ],
+          "common contributing conditions": [
+            "Balanced irrigation",
+            "Good nutrient status",
+            "Stable field conditions"
+          ],
+          "prevention": [
+            "Avoid leaf wetness",
+            "Use clean field management",
+            "Inspect regularly"
+          ],
+          "plant-care advice": [
+            "Keep the crop well spaced",
+            "Monitor moisture and nutrients",
+            "Scout fields often"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue standard care."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy cabbage responds well to regular field inspection."
+          ]
+        },
+        {
+          "plant": "Cabbage",
+          "disease": "Black Rot",
+          "description": "Black rot is a serious cabbage disease that causes leaf yellowing, necrosis, and poor market quality.",
+          "symptoms": [
+            "Yellow V-shaped leaf lesions",
+            "Leaf necrosis",
+            "Reduced head quality"
+          ],
+          "common contributing conditions": [
+            "Warm wet weather",
+            "Infected seeds or residues",
+            "Poor sanitation"
+          ],
+          "prevention": [
+            "Use clean seed and healthy transplants",
+            "Practice sanitation",
+            "Avoid overhead irrigation"
+          ],
+          "plant-care advice": [
+            "Remove infected leaves early",
+            "Scout after wet weather",
+            "Keep the crop clean and healthy"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "High",
+          "notes": [
+            "Black rot can spread quickly when wet conditions persist."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Cauliflower",
+      "description": "Cauliflower is a cool-season crop that is highly sensitive to temperature stress, moisture imbalance, and foliar disease.",
+      "diseases": [
+        {
+          "plant": "Cauliflower",
+          "disease": "Healthy",
+          "description": "Healthy cauliflower heads are compact and leaves are uniformly green with strong growth.",
+          "symptoms": [
+            "Uniform green leaves",
+            "Firm curd development",
+            "No large lesions"
+          ],
+          "common contributing conditions": [
+            "Stable moisture",
+            "Balanced nutrition",
+            "Good field hygiene"
+          ],
+          "prevention": [
+            "Avoid prolonged wetness",
+            "Manage crop density",
+            "Scout regularly"
+          ],
+          "plant-care advice": [
+            "Monitor curd quality",
+            "Use balanced irrigation",
+            "Inspect the field often"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue regular care."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy cauliflower is benefited by regular moisture and nutrient checks."
+          ]
+        },
+        {
+          "plant": "Cauliflower",
+          "disease": "Downy Mildew",
+          "description": "Downy mildew is a foliar disease of cauliflower that can spread rapidly under cool, humid conditions.",
+          "symptoms": [
+            "Yellow patches on leaves",
+            "Fuzzy fungal growth",
+            "Leaf decline"
+          ],
+          "common contributing conditions": [
+            "Cool humid weather",
+            "Dense canopy",
+            "Leaf wetness"
+          ],
+          "prevention": [
+            "Improve airflow",
+            "Avoid overhead irrigation",
+            "Scout after wet periods"
+          ],
+          "plant-care advice": [
+            "Remove diseased leaves",
+            "Keep the canopy open",
+            "Monitor after humid spreads"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Managing humidity and leaf wetness is key to disease reduction."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Mango",
+      "description": "Mango is an orchard crop where tree health, canopy conditions, and disease control strongly influence fruit quality and yield.",
+      "diseases": [
+        {
+          "plant": "Mango",
+          "disease": "Healthy",
+          "description": "Healthy mango trees have dense green foliage, strong growth, and normal fruit development.",
+          "symptoms": [
+            "Healthy green leaves",
+            "Strong canopy",
+            "Normal flowering and fruit set"
+          ],
+          "common contributing conditions": [
+            "Good orchard hygiene",
+            "Balanced nutrition",
+            "Stable irrigation"
+          ],
+          "prevention": [
+            "Check tree health regularly",
+            "Prevent stress and nutrient imbalance",
+            "Maintain sanitation"
+          ],
+          "plant-care advice": [
+            "Inspect tree leaves and shoots",
+            "Maintain orchard moisture balance",
+            "Support canopy health"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the tree is healthy. Continue standard orchard care."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy mango trees require regular monitoring and orchard hygiene."
+          ]
+        },
+        {
+          "plant": "Mango",
+          "disease": "Anthracnose",
+          "description": "Anthracnose is a common mango disease that affects leaves, flowers, and fruit under wet conditions.",
+          "symptoms": [
+            "Dark lesions on leaves and fruit",
+            "Fruit spotting and decay",
+            "Flower blight"
+          ],
+          "common contributing conditions": [
+            "Warm humid weather",
+            "Wet canopy",
+            "Poor orchard sanitation"
+          ],
+          "prevention": [
+            "Improve orchard sanitation",
+            "Reduce canopy wetness",
+            "Use clean orchard practices"
+          ],
+          "plant-care advice": [
+            "Scout frequently during wet weather",
+            "Remove infected plant material",
+            "Maintain canopy health"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "High",
+          "notes": [
+            "Anthracnose can spread rapidly during wet and humid periods."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Grapevine",
+      "description": "Grapevine is a fruit crop where canopy management, humidity control, and disease scouting are important for vine health.",
+      "diseases": [
+        {
+          "plant": "Grapevine",
+          "disease": "Healthy",
+          "description": "Healthy grapevines have firm leaves and balanced growth with no major fungal or nutrient stress symptoms.",
+          "symptoms": [
+            "Healthy green leaves",
+            "Strong vine growth",
+            "No major lesions"
+          ],
+          "common contributing conditions": [
+            "Balanced irrigation",
+            "Good canopy management",
+            "Stable vine nutrition"
+          ],
+          "prevention": [
+            "Keep the canopy open",
+            "Avoid excessive moisture",
+            "Scout the vines regularly"
+          ],
+          "plant-care advice": [
+            "Monitor leaves and bunches often",
+            "Maintain crop balance",
+            "Keep the vineyard ventilated"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the vine is healthy. Continue regular orchard care."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy grapevines benefit from regular canopy and moisture checks."
+          ]
+        },
+        {
+          "plant": "Grapevine",
+          "disease": "Powdery Mildew",
+          "description": "Powdery mildew in grapevine is a surface fungal issue that reduces leaf vigor and fruit quality under warm humid conditions.",
+          "symptoms": [
+            "White powdery leaf patches",
+            "Leaf distortion",
+            "Fruit quality reduction"
+          ],
+          "common contributing conditions": [
+            "Warm weather",
+            "Dense canopy",
+            "High humidity"
+          ],
+          "prevention": [
+            "Improve canopy airflow",
+            "Reduce dense leaf overlap",
+            "Scout regularly"
+          ],
+          "plant-care advice": [
+            "Inspect leaves and fruit clusters",
+            "Keep rows well ventilated",
+            "Act early when symptoms are seen"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Good canopy management helps prevent rapid mildew spread."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Soybean",
+      "description": "Soybean is a legume crop that depends on good root health, nutrient balance, and disease prevention during wet or warm conditions.",
+      "diseases": [
+        {
+          "plant": "Soybean",
+          "disease": "Healthy",
+          "description": "Healthy soybean plants have green leaves, strong stems, and consistent pod development.",
+          "symptoms": [
+            "Uniform green leaves",
+            "Strong stem growth",
+            "Normal pod formation"
+          ],
+          "common contributing conditions": [
+            "Balanced fertility",
+            "Healthy soil",
+            "Good field management"
+          ],
+          "prevention": [
+            "Maintain soil fertility",
+            "Monitor field stress",
+            "Use healthy seed"
+          ],
+          "plant-care advice": [
+            "Inspect the crop throughout growth stages",
+            "Check soil and moisture conditions",
+            "Support vigorous plant development"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue standard management."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy soybean remains productive with consistent field management."
+          ]
+        },
+        {
+          "plant": "Soybean",
+          "disease": "Rust",
+          "description": "Soybean rust is a major foliar disease that reduces leaf area and can lower yield under conducive weather.",
+          "symptoms": [
+            "Rust-colored leaf spots",
+            "Leaf yellowing and drying",
+            "Reduced vigor"
+          ],
+          "common contributing conditions": [
+            "Humid weather",
+            "Leaf wetness",
+            "Dense canopy"
+          ],
+          "prevention": [
+            "Use resistant varieties",
+            "Improve canopy management",
+            "Monitor weather-driven spread"
+          ],
+          "plant-care advice": [
+            "Scout during humid periods",
+            "Maintain field balance",
+            "Use timely management"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "High",
+          "notes": [
+            "Rust can become severe in humid and dense crop conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Sunflower",
+      "description": "Sunflower is a broad-acre oil crop where strong stem health, canopy structure, and foliar disease monitoring matter a lot.",
+      "diseases": [
+        {
+          "plant": "Sunflower",
+          "disease": "Healthy",
+          "description": "Healthy sunflower plants show strong stems, bright green leaves, and normal head development.",
+          "symptoms": [
+            "Bright green leaves",
+            "Strong stalk growth",
+            "Normal flowering"
+          ],
+          "common contributing conditions": [
+            "Good field moisture",
+            "Balanced nutrition",
+            "Proper spacing"
+          ],
+          "prevention": [
+            "Avoid moisture stress",
+            "Use proper spacing",
+            "Monitor crop health"
+          ],
+          "plant-care advice": [
+            "Inspect the crop at growth stages",
+            "Support vigorous root development",
+            "Watch for weather stress"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the crop is healthy. Continue standard field management."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy sunflower benefits from regular agronomic checks."
+          ]
+        },
+        {
+          "plant": "Sunflower",
+          "disease": "Leaf Spot",
+          "description": "Leaf spot in sunflower can cause reduced photosynthesis and yield loss if it spreads through the canopy.",
+          "symptoms": [
+            "Circular leaf spots",
+            "Yellowing and drying leaves",
+            "Reduced vigor"
+          ],
+          "common contributing conditions": [
+            "Humid weather",
+            "Dense canopy",
+            "Poor sanitation"
+          ],
+          "prevention": [
+            "Improve spacing and airflow",
+            "Remove infected residues",
+            "Scout after rain"
+          ],
+          "plant-care advice": [
+            "Regularly inspect leaves",
+            "Keep the canopy open",
+            "Reduce field stress"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "Moderate",
+          "notes": [
+            "Leaf spot pressure is often greater in humid and dense stands."
+          ]
+        }
+      ]
+    },
+    {
+      "plant": "Coconut",
+      "description": "Coconut is a perennial plantation crop where tree vigor, canopy health, and moisture regularity strongly affect productivity.",
+      "diseases": [
+        {
+          "plant": "Coconut",
+          "disease": "Healthy",
+          "description": "Healthy coconut palms have strong fronds, steady growth, and normal nut development without major lesion spread.",
+          "symptoms": [
+            "Strong green fronds",
+            "Healthy canopy",
+            "Normal nut development"
+          ],
+          "common contributing conditions": [
+            "Balanced irrigation",
+            "Healthy soil",
+            "Good plantation hygiene"
+          ],
+          "prevention": [
+            "Maintain healthy soil",
+            "Inspect palms regularly",
+            "Reduce plant stress"
+          ],
+          "plant-care advice": [
+            "Check frond health often",
+            "Watch soil and moisture conditions",
+            "Maintain regular orchard care"
+          ],
+          "treatment guidance": [
+            "No disease treatment is needed when the palm is healthy. Continue regular plantation management."
+          ],
+          "severity": "Low",
+          "notes": [
+            "Healthy coconut palms benefit from regular field inspection and cleanliness."
+          ]
+        },
+        {
+          "plant": "Coconut",
+          "disease": "Bud Rot",
+          "description": "Bud rot is a serious coconut disease that can quickly damage the growing point and lead to severe tree decline.",
+          "symptoms": [
+            "Decay at the growing point",
+            "Yellowing fronds",
+            "Sudden decline"
+          ],
+          "common contributing conditions": [
+            "Waterlogged conditions",
+            "Poor drainage",
+            "High moisture around the crown"
+          ],
+          "prevention": [
+            "Maintain good drainage",
+            "Avoid water accumulation",
+            "Practice plantation hygiene"
+          ],
+          "plant-care advice": [
+            "Inspect the crown regularly",
+            "Reduce moisture around the stem base",
+            "Remove severely affected palms when needed"
+          ],
+          "treatment guidance": [
+            "Use a locally approved product for this crop and disease according to the product label and agricultural guidance."
+          ],
+          "severity": "High",
+          "notes": [
+            "Bud rot can cause major decline if moisture is not managed in the crown area."
+          ]
+        }
+      ]
+    }
+  ]
+}
