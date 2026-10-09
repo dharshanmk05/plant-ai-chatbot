@@ -85,10 +85,18 @@ if uploaded_file is not None:
                             f"Your image appears healthy for {prediction['plant']} with a confidence of {prediction['confidence'] * 100:.1f}%."
                         )
                     else:
+                        disease_info = get_disease_info(prediction["plant"], prediction["disease"])
+                        confidence_percent = prediction["confidence"] * 100
+                        diagnosis_type = "Possible match" if prediction["confidence"] < st.session_state.confidence_threshold else "Likely diagnosis"
+                        description = disease_info.get("description", "")
+                        symptoms = disease_info.get("symptoms", [])
+                        symptom_summary = "; ".join(symptoms[:3])
                         assistant_message = (
-                            f"Your image is most consistent with {prediction['plant']} {prediction['disease']} with "
-                            f"{prediction['confidence'] * 100:.1f}% confidence."
+                            f"{diagnosis_type}: {prediction['plant']} {prediction['disease']} ({confidence_percent:.1f}% confidence). "
+                            f"{description} Signs to check: {symptom_summary}."
                         )
+                        if prediction["confidence"] < st.session_state.confidence_threshold:
+                            assistant_message += " Confidence is below the selected threshold; confirm the diagnosis before treatment."
 
                     if not any(message.get("content") == assistant_message for message in st.session_state.chat_messages):
                         st.session_state.chat_messages.append({"role": "assistant", "content": assistant_message})
@@ -121,13 +129,23 @@ if st.session_state.latest_prediction:
     if prediction["healthy"]:
         st.success("Status: Healthy")
         st.write("The image is consistent with a healthy plant. Continue routine care and monitoring.")
-    elif prediction["confidence"] < st.session_state.confidence_threshold:
-        st.warning("Unable to make a reliable prediction.")
-        st.write("Please upload a closer image, improve the lighting, and include the affected leaf clearly. Avoid relying on a low-confidence result.")
-        st.write("Use better lighting, keep the leaf in focus, and include both healthy and affected tissue if possible.")
     else:
-        st.info("Most likely diagnosis: likely plant disease pattern")
-        st.write("This result is a prediction and should be used as a helpful guide rather than a certainty.")
+        description = disease_info.get("description", "")
+        symptoms = disease_info.get("symptoms", [])
+        if prediction["confidence"] < st.session_state.confidence_threshold:
+            st.warning(f"Possible match: {plant} {disease} ({confidence_percent:.1f}% confidence), below the selected threshold.")
+            st.write("Please verify the symptoms before taking action. Upload a closer, well-lit image that shows both affected and healthy tissue.")
+        else:
+            st.info(f"Likely diagnosis: {plant} {disease} ({confidence_percent:.1f}% confidence). This is a model prediction, not a confirmed diagnosis.")
+
+        if description:
+            st.write(description)
+        if symptoms:
+            st.markdown("**Affected parts and signs to check**")
+            for item in symptoms:
+                st.write(f"- {item}")
+        if prediction["confidence"] < st.session_state.confidence_threshold:
+            st.caption("Do not choose or apply medicine based only on this low-confidence image result.")
 
     if prediction["healthy"]:
         with st.expander("Basic Care Suggestions"):
@@ -136,14 +154,6 @@ if st.session_state.latest_prediction:
             st.write("- Check leaves regularly for any changes in color, texture, or growth pattern.")
             st.write("- Keep a simple monitoring routine for new pests, nutrient problems, or leaf stress.")
     elif prediction["confidence"] >= st.session_state.confidence_threshold:
-        with st.expander("Symptoms"):
-            symptoms = disease_info.get("symptoms", [])
-            if symptoms:
-                for item in symptoms:
-                    st.write(f"- {item}")
-            else:
-                st.write("- No detailed symptom list is available in the local knowledge base.")
-
         with st.expander("Possible Causes"):
             causes = disease_info.get("common contributing conditions", [])
             if causes:
@@ -168,14 +178,14 @@ if st.session_state.latest_prediction:
             else:
                 st.write("- Continue routine plant monitoring and maintain healthy crop conditions.")
 
-        with st.expander("Treatment Guidance"):
+        with st.expander("Treatment / Medicine Guidance"):
             treatment = disease_info.get("treatment guidance", [])
             if treatment:
                 for item in treatment:
                     st.write(f"- {item}")
             else:
                 st.write("- Use locally approved products according to the label and local agricultural guidance.")
-            st.caption("This is not a medicine prescription. Confirm the diagnosis and ask a local agricultural expert for a crop- and location-approved product; follow its label and harvest interval.")
+            st.caption("The knowledge base does not verify a specific medicine name or dose. Ask for a crop- and location-approved product, follow its label and harvest interval, and do not treat from an image prediction alone.")
 
     st.write("\n")
     st.write("Top model predictions:")

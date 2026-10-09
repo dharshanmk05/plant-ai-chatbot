@@ -76,7 +76,17 @@ class PlantCareChatbot:
         if "disease" in text and "what" in text:
             if prediction.get("healthy") is True:
                 return f"The current image is most consistent with a healthy {plant_name} plant. I would continue routine care and monitoring rather than treating a disease."
-            return f"The current image is most consistent with {plant_name} {disease_name}. Confidence is {prediction.get('confidence', 0) * 100:.1f}% and the result should be treated as a likely diagnosis, not a certainty."
+            confidence = float(prediction.get("confidence", 0))
+            threshold = float(prediction.get("threshold", 0.60))
+            diagnosis_type = "possible match" if confidence < threshold else "likely diagnosis"
+            description = disease_record.get("description", "")
+            symptoms = disease_record.get("symptoms", [])
+            symptom_summary = "; ".join(symptoms[:3])
+            certainty_note = " Confidence is below the selected threshold, so confirm the match before treatment." if confidence < threshold else " This is a model prediction, not a confirmed diagnosis."
+            return (
+                f"{diagnosis_type}: {plant_name} {disease_name} ({confidence * 100:.1f}% confidence). "
+                f"{description} Signs to check: {symptom_summary}.{certainty_note}"
+            )
 
         if "symptom" in text:
             symptoms = disease_record.get("symptoms", []) or ["The disease symptoms are not clearly recorded in the local knowledge base."]
@@ -97,8 +107,8 @@ class PlantCareChatbot:
         if any(term in text for term in ("next", "do", "treat", "medicine", "pesticide", "fungicide", "spray", "chemical")):
             treatment = disease_record.get("treatment guidance", []) or ["Use a locally approved product for this crop and disease according to the product label and agricultural guidance."]
             return (
-                "Treatment guidance: " + " ".join(treatment)
-                + " This is not a medicine prescription; confirm the diagnosis and use only products registered for this crop and location, following the label."
+                f"Treatment guidance for {plant_name} {disease_name}: " + " ".join(treatment)
+                + " The knowledge base does not verify a specific medicine name or dose. Use only products registered for this crop and disease in your area, follow the label, and confirm the diagnosis with a local agricultural expert. Tell me your country or region for more relevant guidance."
             )
 
         if "healthy" in text:
@@ -112,10 +122,15 @@ class PlantCareChatbot:
         if "plant" in text and "name" in text:
             return f"The image appears to be associated with {plant_name}."
 
+        confidence = float(prediction.get("confidence", 0))
+        threshold = float(prediction.get("threshold", 0.60))
+        diagnosis_type = "possible match" if confidence < threshold else "likely diagnosis"
+        description = disease_record.get("description", "")
+        symptoms = disease_record.get("symptoms", [])
+        symptom_summary = "; ".join(symptoms[:3])
         return (
-            f"Based on the current analysis, the image is most consistent with {plant_name} {disease_name}. "
-            f"Confidence is {prediction.get('confidence', 0) * 100:.1f}%. "
-            f"Use the symptoms, prevention, and treatment guidance in the dashboard and consider a clearer image if confidence is low."
+            f"Based on the image, the {diagnosis_type} is {plant_name} {disease_name} ({confidence * 100:.1f}% confidence). "
+            f"{description} Signs to check: {symptom_summary}. Review the prevention and treatment guidance in the analysis."
         )
 
     def _generate_ollama_response(self, question: str, prediction: dict[str, Any] | None = None) -> str:
